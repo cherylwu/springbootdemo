@@ -24,7 +24,7 @@ fun plus(n: Int): Int {
 }
 
 fun main(args: Array<String>) {
-    /* printhello()
+     printhello()
      val asc = Array(6, { i -> ((i * i).toString()) })
      for (name in asc) {
          println("hello, ${name}")
@@ -41,7 +41,7 @@ fun main(args: Array<String>) {
     println(maxOf(15, 16))
     printProduct("16","19")
     println(getStringLength("objects"))
-*/
+
 
     var items = listOf(111, "bbb", true, "bike", "mobile", "base")
 
@@ -52,10 +52,14 @@ fun main(args: Array<String>) {
             .map { it.toString().toUpperCase() }
             .sortedBy { it }
             .forEach { println(it) }
-    println("****************************************")
+    println("****************** LIST **********************")
     printArray(items);
 
     listIterate()
+
+    println("******************* MAP *********************")
+    val map = mapOf("a" to 1, "b" to 2)
+    println(map["a"])
 
     println(describe(1))
 
