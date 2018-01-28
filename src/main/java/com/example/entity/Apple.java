@@ -49,5 +49,14 @@ public class Apple {
         return this;
     }
 
-    public Apple
+    public Apple appleColor(String appleColor){
+        this.appleColor = appleColor;
+        return this;
+    }
+
+    public Apple appleProvider(String appleProvider){
+        this.appleProvider = appleProvider;
+        return this;
+    }
+
 }
